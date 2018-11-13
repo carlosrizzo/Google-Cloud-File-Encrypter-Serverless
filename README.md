@@ -27,17 +27,17 @@ Users upload an image to Storage to the auto generated path `/<external ref uuid
 
 This sample comes with a Function and web-based UI for testing the function. To configure it:
 
- 1. Create a Google Cloud Project using the [Console](https://console.cloud.google.com).
- 1. Create billing account
- 1. Enable the Cloud Functions API
- 1. Enable the Cloud Datastore API
- 1. Enable the Cloud Storage API
+ 1. Create a Google Cloud Project using the [Console](https://console.cloud.google.com)
+ 1. Create billing account [Console](https://console.cloud.google.com/billing/)
+ 1. Enable the Cloud Functions API [Console](https://console.cloud.google.com/functions/)
+ 1. Enable the Cloud Datastore API [Console](https://console.cloud.google.com/datastore/)
+ 1. Enable the Cloud Storage API [Console](https://console.cloud.google.com/storage/)
 
 
 ## Deploy and test
 
 To test the sample:
- 1. Download and install gcloud command line tool (https://cloud.google.com/sdk/install)
+ 1. Download and install gcloud command line tool [Console](https://cloud.google.com/sdk/install)
  2. From function path [functions/gcf-upload-file/](functions/gcf-upload-file/) execute:
  ```
  export FUNCTION_NAME="gcf-upload-file";
@@ -92,3 +92,5 @@ timeout: 60s
 updateTime: '2018-11-12T16:05:07Z'
 versionId: '1'
 ```
+6. Edit example file [examples/gcp-uploader.html](examples/gcp-uploader.html), change post action to Cloud Functions uploader url.
+7. Edit example file [examples/gcp-downloader.html](examples/gcp-downloader.html), change post action to Cloud Functions downloader url.
