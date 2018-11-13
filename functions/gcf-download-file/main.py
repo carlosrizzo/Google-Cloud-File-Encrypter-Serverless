@@ -55,7 +55,7 @@ def execute(request):
     # Generate encryption key Bucket file
     encryption_key = hashlib.md5(encryption_key_uuid.bytes).hexdigest()
 
-    try: # Get bucket
+    try: # Get datastore
         client_datastore = datastore.Client()
         item_key = client_datastore.key(DS_KIND, "%s-%s" % (external_ref_key, file_hash))
         item = client_datastore.get(item_key)
