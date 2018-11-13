@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>GCP - File Encrypter Uploader</title>
+</head>
+<body>
+	<h4>GCP - File Encrypter Uploader</h4>
+	<form action="[Cloud Functions uploader url]"  method="post" enctype="multipart/form-data">
+		<label>File: </label>
+		<input type="file" id="file" name="file" placeholder="Select a file">
+		<br />
+		<label>External Ref: </label>
+		<input type="text" id="external_ref" name="external_ref" placeholder="Enter a external_ref">
+		<br />
+		<label>External Key: </label>
+		<input type="text" id="external_key" name="external_key" placeholder="Enter a external_key">
+		<br />
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
