@@ -1,4 +1,4 @@
-# Google Cloud File Encrypter Serverless
+# Google Cloud File Encrypter Serverless 
 
 This sample demonstrates how to upload and download encrypted files in Google Storage using Cloud Functions.
 
