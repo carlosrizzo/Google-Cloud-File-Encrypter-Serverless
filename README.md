@@ -3,7 +3,7 @@
 This sample demonstrates how to upload and download encrypted files in Google Storage using Cloud Functions.
 
 
-## Functions Code 
+## Functions Code    
 
 Upload
 See file [functions/gcf-upload-file/main.py](functions/gcf-upload-file/main.py) for the code.
